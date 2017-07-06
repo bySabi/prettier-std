@@ -16,7 +16,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "lint": "standard --verbose | snazzy",
+    "lint": "standard --fix --verbose | snazzy",
     "test": "npm run lint",
     "format": "prettier-std --no-bracket-spacing --write '**/*.js'"
   },

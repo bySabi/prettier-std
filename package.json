@@ -1,6 +1,6 @@
 {
   "name": "prettier-std",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "prettier -> standard --fix -> Formatted Code",
   "keywords": [
     "prettier",
@@ -22,10 +22,10 @@
   },
   "dependencies": {
     "prettier-eslint": "*",
-    "standard": "*",
     "standard-prettier-eslint": "1.x.x"
   },
   "devDependencies": {
+    "standard": "*",
     "snazzy": "*"
   },
   "repository": {
